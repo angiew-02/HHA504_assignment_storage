@@ -10,7 +10,7 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'gcp_secret.json'
 client = storage.Client()
 
 # Step 3: Create a bucket or use an existing one
-bucket_name = 'hha504-assignment'  # Change this to your bucket name
+bucket_name = 'storagepractice'
 bucket = client.bucket(bucket_name)
 
 
